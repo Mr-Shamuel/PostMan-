@@ -1,0 +1,5 @@
+var data = pm.response.json();
+pm.environment.set("accessToken", data.accessToken);
+pm.environment.set("refreshToken", data.refreshToken);
+
+##This Should Add To Login url -> Test only 
